@@ -1,7 +1,7 @@
 
-### 프로젝트#3 캐글 코리아와 함께하는 2nd ML 대회 - House Price Prediction
+### 프로젝트#3 캐글 코리아와 함께하는 2nd ML 대회 - House Price Prediction<br>
 
-####앙상블(Ensemble) 
+####앙상블(Ensemble) <br>
   **여러 개의 학습 알고리즘을 사용 **<br>
   **그 예측을 결합**<br>
   **정확한 최종 예측을 도출하는 기법** <br>
