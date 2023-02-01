@@ -25,4 +25,4 @@ Going Deeper<br>
 5. CAM을 만들고 평가해보자<br>
    - RESNET50 + GAP + DENSELAYER와 결합된 CAM모델의 학습<br>
    - CAM방식과 GRAD-CAM방식의 CLASS ACTIVATION MAP 생성, 시각화<br>
-   - CAM과 GRAD-CAM각각의 원본이미지 합성, 바운딩박스, IoU계산과정을 통해 CAM과 Grad-CAM의 object localization성능이 <br>
+   - CAM과 GRAD-CAM각각의 원본이미지 합성, 바운딩박스, IoU계산과정을 통해 CAM과 Grad-CAM의 object localization성능비교/ <br>
