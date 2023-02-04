@@ -22,6 +22,11 @@ https://m.blog.naver.com/tnsqo1126/222570075666
 
 
 Going Deeper<br>
+1. 없다면 어떻게 될까?(ResNet Ablation Study)<br>
+   - ResNet-34, ResNet-50 모델 구현이 정상적으로 진행되었는가?<br>
+   - 구현한 ResNet 모델을 활용하여 Image Classification 모델 훈련이 가능한가?<br>
+   - Ablation Study 결과가 바른 포맷으로 제출되었는가? <br>
+   
 5. CAM을 만들고 평가해보자<br>
    - RESNET50 + GAP + DENSELAYER와 결합된 CAM모델의 학습<br>
    - CAM방식과 GRAD-CAM방식의 CLASS ACTIVATION MAP 생성, 시각화<br>
