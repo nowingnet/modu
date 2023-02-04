@@ -27,6 +27,21 @@ Going Deeper<br>
    - 구현한 ResNet 모델을 활용하여 Image Classification 모델 훈련이 가능한가?<br>
    - Ablation Study 결과가 바른 포맷으로 제출되었는가? <br>
    
+2. 이미지 어디까지 우려볼까?<br>
+   - CutMix와 MixUp 기법을 ResNet50 분류기에 성공적으로 적용하였는가?<br>
+   - 다양한 실험을 통해 태스크에 최적인 Augmentation 기법을 찾아내었는가?<br>
+   - 여러가지 Augmentation 기법을 적용한 결과를 체계적으로 비교분석하였는가? <br>
+      
+3. GO/STOP! - Object Detection 시스템 만들기<br>
+   - KITTI 데이터셋에 대한 분석이 체계적으로 진행되었다.<br>
+   - RetinaNet 학습이 정상적으로 진행되어 object detection 결과의 시각화까지 진행되었다.<br>
+   - 자율주행 Object Detection 테스트시스템 적용결과 만족스러운 정확도 성능을 달성하였다.<br>
+      
+4. 도로 영역을 찾자! - 세그멘테이션 모델 만들기<br>
+   - U-Net을 통한 세그멘테이션 작업이 정상적으로 진행되었는가?<br>
+   - U-Net++ 모델이 성공적으로 구현되었는가?<br>
+   - U-Net과 U-Net++ 두 모델의 성능이 정량적/정성적으로 잘 비교되었는가?<br>
+            
 5. CAM을 만들고 평가해보자<br>
    - RESNET50 + GAP + DENSELAYER와 결합된 CAM모델의 학습<br>
    - CAM방식과 GRAD-CAM방식의 CLASS ACTIVATION MAP 생성, 시각화<br>
