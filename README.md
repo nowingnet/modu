@@ -27,11 +27,12 @@ Going Deeper<br>
    - CAM방식과 GRAD-CAM방식의 CLASS ACTIVATION MAP 생성, 시각화<br>
    - CAM과 GRAD-CAM각각의 원본이미지 합성, 바운딩박스, IoU계산과정을 통해 CAM과 Grad-CAM의 object localization성능비교/ <br>
 <br>
-6. 직접 만들어보는 OCR
-   - Text recognition을 위해 특화된 데이터셋 구성이 체계적으로 진행되었다.
-    .텍스트 이미지 리사이징, ctc loss 측정을 위한 라벨 인코딩, 배치처리 등이 적절히 수행되었다.
-   - CRNN 기반의 recognition 모델의 학습이 정상적으로 진행되었다.
-    . 학습결과 loss가 안정적으로 감소하고 대부분의 문자인식 추론 결과가 정확하다.
-   - keras-ocr detector와 CRNN recognizer를 엮어 원본 이미지 입력으로부터 text가 출력되는 OCR이 End-to-End로 구성되었다.
-    . 샘플 이미지를 원본으로 받아 OCR 수행 결과를 리턴하는 1개의 함수가 만들어졌다.
+6. 직접 만들어보는 OCR<br>
+   - Text recognition을 위해 특화된 데이터셋 구성이 체계적으로 진행되었다.<br>
+    .텍스트 이미지 리사이징, ctc loss 측정을 위한 라벨 인코딩, 배치처리 등이 적절히 수행되었다.<br>
+   - CRNN 기반의 recognition 모델의 학습이 정상적으로 진행되었다.<br>
+    . 학습결과 loss가 안정적으로 감소하고 대부분의 문자인식 추론 결과가 정확하다.<br>
+   - keras-ocr detector와 CRNN recognizer를 엮어 원본 이미지 입력으로부터 text가 출력되는 OCR이 End-to-End로 구성되었다.<br>
+    . 샘플 이미지를 원본으로 받아 OCR 수행 결과를 리턴하는 1개의 함수가 만들어졌다.<br>
     
+<br>
