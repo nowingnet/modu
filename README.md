@@ -28,7 +28,7 @@ Going Deeper<br>
    - CAM과 GRAD-CAM각각의 원본이미지 합성, 바운딩박스, IoU계산과정을 통해 CAM과 Grad-CAM의 object localization성능비교/ <br>
 <br>
 <br>
-6. 직접 만들어보는 OCR<br>
+6. 직접 만들어보는 OCR<br><br>
    - Text recognition을 위해 특화된 데이터셋 구성이 체계적으로 진행되었다.<br>
     .텍스트 이미지 리사이징, ctc loss 측정을 위한 라벨 인코딩, 배치처리 등이 적절히 수행되었다.<br>
    - CRNN 기반의 recognition 모델의 학습이 정상적으로 진행되었다.<br>
